@@ -1,0 +1,67 @@
+.redessociales--general {
+  background-color: #172640; }
+
+body {
+  font-size: 25px; }
+
+footer {
+  color: aqua; }
+
+.footer__entrenamientos--lista {
+  list-style-image: url(fotos/pelota01.jpg); }
+
+.columna1 {
+  background: #2CCAB6;
+  border: solid 2px #172640;
+  color: #172640;
+  text-align: center; }
+
+.tabla__entrenamientoscuarentena {
+  background: gray;
+  border: solid 2px #172640;
+  color: #172640;
+  font-family: complementaria2;
+  font-size: 12px;
+  text-align: center; }
+
+.recuadros__estadisticas {
+  color: #ffffff; }
+
+.recuadros__enlosmedios {
+  color: #ffffff; }
+
+.recuadros__lityfutbol {
+  color: #ffffff; }
+
+.recuadros__estadisticas {
+  background-color: #172640; }
+
+.recuadros__enlosmedios {
+  background-color: #aa45f7; }
+
+.recuadros__lityfutbol {
+  background-color: #2CCAB6; }
+
+.columna-1 {
+  width: 100%; }
+
+.columna-2 {
+  width: 50%; }
+
+.columna-3 {
+  width: 33.33333%; }
+
+.columna-4 {
+  width: 25%; }
+
+.columna-5 {
+  width: 20%; }
+
+.columna-6 {
+  width: 16.66667%; }
+
+/* Mi constante. Si cambio el valor cambia el color de p. */
+/* p {
+  color: #172640;
+  background-color: #2CCAB6;
+  padding: 20px; } */

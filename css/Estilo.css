@@ -1,0 +1,444 @@
+@font-face {
+    font-family:principal;
+    src: url(tipografia/CodeProBold.otf);
+}
+@font-face {
+    font-family:principal2;
+    src: url(tipografia/CodePro.otf);
+}
+@font-face {
+    font-family:complementaria;
+    src: url(tipografia/MontserratRegular.ttf);
+}
+
+@font-face {
+    font-family:complementaria2;
+    src: url(tipografia/MontserratThin.ttf);
+}
+
+/* h1 {
+    font-family: principal;
+    color: #172640;
+font-size: 25px;}
+h2 {font-family: principal2;}
+h2 {color: #172640;}
+h2 {border: 2px solid hotpink;}
+h3 {color: #2CCAB6;}
+h4 {color: #2CCAB6;
+font-family: complementaria2;} */
+
+
+/* Diseño header */
+
+
+
+.Amenu
+{
+background-color: #172640;
+align-content: center;
+font-family: principal;
+}
+
+.Amenu1 
+{justify-content: end;
+font-family: complementaria;
+font-size: 16px;
+}
+
+
+.alturafotos
+{
+    height: 300px;
+}
+/* 
+.Micarousel
+{
+    height: 300px;
+} */
+
+
+.contendeor__carousel--principal
+{
+    width: 100%;
+    height: 400px;
+    border: solid 5px #172640;
+    padding: 5px;
+    display: inline-block;
+   /* solucion */
+    overflow: hidden;
+    background-color: #172640;
+    filter:alpha(opacity=60);
+    opacity: 0,8;
+    z-index: 3;
+   }
+
+   .contendeor__seccion--principal
+{
+    width: 100%;
+    height: 200px;
+    border: solid 5px #172640;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    background-color: #172640;
+    filter:alpha(opacity=60);
+    opacity: 0,8;
+    justify-content: space-around;
+   }
+
+   .foto__seccion--principal
+   {
+       width: 18%;
+       height: 180px;
+       border: solid 1px #2CCAB6;       
+   }
+   
+
+
+   .foto__carousel
+   {
+     padding-bottom: 150px;
+   }
+
+   .Micarouseltexto
+   {   display: inline-block;
+        z-index: 5;
+       background-color: #2CCAB6;
+       color: #172640;
+       font-family:complementaria2;
+       position: absolute;
+       font-size: 20px;
+       margin-top: 190px;
+       margin-bottom: 190px;
+       margin-left: 30%;
+           } 
+  
+   
+   
+/*Portada Principal y de Secciones mobile First*/
+/* #portada {
+display: grid;
+grid-template-areas:
+    "logo titulo menuok";
+grid-template-rows: 15%;
+grid-template-columns: 20% auto 35%;
+grid-column-gap: 20px;
+background-color: #ffffff;
+border-bottom: #172640 solid 1px;
+align-items: center;
+}
+
+#PortadaSeccion {
+    display: grid;
+    grid-template-areas:
+        "logo titulo menuok"
+        "tituloseccion tituloseccion tituloseccion";
+    grid-template-rows: 15% 10%;
+    grid-template-columns: 20% auto 30%;
+    grid-column-gap: 20px;
+    background-color: #ffffff;
+      }
+
+
+.Logo {
+    grid-area: logo;
+    justify-content: space-around;
+    }
+.TituloPortada {
+        grid-area: titulo;
+        justify-content: space-around;
+        }
+.Menu {
+        grid-area: menuok;
+        display: flex;
+        justify-content: center;
+    }
+#TituloSeccion {
+    grid-area: tituloseccion;
+    background-color: #2CCAB6;}
+
+
+.Seccionesok {
+   display: none;  }   /*Aca genero el error si le pongo display none porque no quiero que se vea en un celular y si en pantalla grande tengo lio.  */
+ */
+
+/* prueba
+.listaseccion
+{list-style-image:url(pelota01.png);
+font-family: complementaria;
+color: #2CCAB6;}
+ */
+
+ /*
+header {background-image: url("portada.jpg");}
+*/
+
+table {font-family: complementaria;
+    background-color: gray;
+    border: solid #172640;
+color: #172640;}
+    
+table th {background-color: #172640;
+    color: #2CCAB6}
+
+.estiloSeccion {font-family: complementaria;}
+.estiloSeccion {background-color: fuchsia;}
+.estiloSeccion {border:3px solid #172640;}
+.estiloSeccion {color: honeydew;}
+
+/* Quienes somos */
+
+.coordinacion {font-family: complementaria;}
+.coordinacion {border: 2px solid #172640;}
+.coordinacion {color: #172640}
+.mafaldaDescripcion {
+    background-color: #2CCAB6;
+    font-family: complementaria;
+    line-height: 16px;}
+.profes {border:5px solid #2CCAB6;}
+.profes {background-color: #172640;}
+.profes {color: honeydew}
+
+
+
+
+
+
+.RedesSociales__Lista
+{
+display: flex;
+flex-direction: row;
+padding: 20px;
+margin: 20px;
+justify-content: space-around;
+list-style-type: none;
+} 
+
+
+.iconos__redes
+{
+    width: 50px;
+    height: 50px;
+}
+
+.RRSS
+{
+    display: inline;
+}
+*/
+/* footer
+{   font-family: complementaria2;
+    color: #172640;
+    font-size: 12px;
+    letter-spacing: 1px;
+} */
+
+
+.Recuadros {
+    justify-content: space-around;
+        z-index: 2;
+    }
+
+.RecuadrosOk
+{
+    color: #ffffff;
+    font-size: 30px;
+    font-family: principal;
+    text-align: center;
+    text-justify: center;
+    width: 100%;
+    height: 300 px;
+    border: solid 4px #172640;
+    padding: 10px;
+   }
+
+.RecuadrosOk:hover 
+{transform: scale (2,0)}
+
+/* #Estadisticas
+{
+    color: fuchsia;
+    width: 30%;
+    height: 20%;
+    background-image: linear-gradient(to left, #172640, #2ccab6);
+    border: solid 4px #172640;
+    padding: 10px;
+    margin: 40px;
+}
+#HistoriasIg
+{
+    color: fuchsia;
+    width: 30%;
+    height: 20%;
+    background-image: linear-gradient(to left, #172640, #2ccab6);
+    border: solid 4px #172640;
+    padding: 10px;
+    margin: 40px;}  */
+
+
+
+/* nav.Menu
+{
+    background-color: #ffffff;
+    width: 100%;
+}
+Esto está perfecto pero menu1 es un area muy grande para un hover, por lo que conviene que lo hagas sobre un solo item como "menu-titulo"
+nav .menu-titulo:hover+.MenuDesplegable1
+{
+    display:block;
+   }
+nav.MenuDesplegable1
+{
+    display: none;
+    position: absolute;
+    background-color: #172640;
+     z-index: 2;
+}
+nav.MenuDesplegable2:hover .DesplegableTorneo
+{
+    display:block;
+    position: relative
+}
+nav.DesplegableTorneo
+{    display: none;
+    position: absolute;
+    background-color: #2CCAB6;
+    z-index: 2;
+} */
+
+nav.Menu
+{
+    background-color: #ffffff;
+    width: 100%;
+}
+/* Esto está perfecto pero menu1 es un area muy grande para un hover, por lo que conviene que lo hagas sobre un solo item como "menu-titulo" */
+nav .Menu1:hover .MenuDesplegable1
+{
+    display:block;
+    position: absolute /* no hace falta repetir las propiedades */
+}
+ul.MenuDesplegable1
+{   display: none;
+    position: absolute;
+    background-color: #172640;
+    z-index: 2;
+}
+nav .MenuDesplegable2:hover .DesplegableTorneo
+{
+    display:block;
+    position: relative
+}
+nav .DesplegableTorneo
+{    display: none;
+    position: absolute;
+    background-color: #2CCAB6;
+    z-index: 2;
+}
+
+
+
+li.Menu2
+{
+color: #2CCAB6;
+list-style-type: none;
+font-family: complementaria;
+font-size: 12px;
+}
+
+#CursoDTgeneral
+{display: flex;
+flex-direction: row;
+background-color: black;
+justify-content: space-around;
+}
+
+div .Columna1
+{display: flex;
+flex-direction: column;
+width: 55%;
+height: 70%;
+background-color: #172640;
+margin: 25px;
+padding: 20px;
+color: white;
+}
+
+div .Columna2
+{display: flex;
+flex-direction: column;
+width: 25%;
+height: 70%;
+background-color: fuchsia;
+margin: 25px;
+padding: 20px;
+}
+
+div .RecuadrosCursoDT
+{border: 2px solid #172640;
+padding: 20px;
+margin: 25px;
+align-content: space-around;}
+
+.fotoCursoDT1
+{
+    border: 2px solid #172640;
+    padding: 20px;
+    margin: 25px;
+    align-content: center;
+    width: 235px;
+    height: 235px;
+    }
+
+img #FotoCDT1
+{width: 200px;
+height: 200px;}
+
+
+div .fotoCursoDT2
+{
+    border: 2px solid #172640;
+    align-content: center;
+    z-index: 3;
+}
+
+/* .Recuadros
+{display: flex;
+color: fuchsia;
+font-family: complementaria;
+font-size: 16px;
+z-index: 2;}
+
+     */
+
+    /* Estilo Footer */
+
+.footer__general
+{
+    background-color: #172640;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: top;    
+    font-size: small;
+}
+
+.footer__seccion
+{
+    justify-content: center;
+}
+
+.footer__titulos--general
+{
+    padding: 10px;
+    justify-items: center;
+    margin: 5px;
+     font-family:principal; /*no me toma la tipografia */
+    color: #2CCAB6;
+    text-align: left;
+    }
+
+.footer__entrenamientos--lista
+{
+list-style-image: url("fotos/pelota"); /*no me levanta la foto*/
+}
