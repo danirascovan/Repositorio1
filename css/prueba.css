@@ -61,7 +61,24 @@ footer {
   width: 16.66667%; }
 
 /* Mi constante. Si cambio el valor cambia el color de p. */
-/* p {
+p {
   color: #172640;
   background-color: #2CCAB6;
-  padding: 20px; } */
+  padding: 20px; }
+
+.contenedor--seccion__contacto {
+  display: inline-block;
+  position: relative;
+  background-color: #172640;
+  width: 100%;
+  height: 180px;
+  text-align: center; }
+
+.titulo--seccion__contacto {
+  position: absolute;
+  font-family: principal;
+  font-size: 70px;
+  z-index: 3;
+  color: #ffffff;
+  top: 50%;
+  right: 30%; }

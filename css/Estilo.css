@@ -39,6 +39,16 @@ align-content: center;
 font-family: principal;
 }
 
+.leyenda {
+    background-color: #172640;
+    align-content: left;
+    font-family: complementaria;
+    color: #2CCAB6;
+    font-size: 12px;
+    padding-left: 100px;
+    justify-content: top;
+   }
+
 .Amenu1 
 {justify-content: end;
 font-family: complementaria;
