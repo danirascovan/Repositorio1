@@ -1,0 +1,102 @@
+.redessociales--general
+{
+    background-color:#172640
+}
+
+body
+{
+font-size: 25px;
+}
+
+footer {
+    color: aqua;
+}
+
+.footer__entrenamientos--lista 
+{
+    list-style-image: url(fotos/pelota01.jpg);
+}
+
+.columna1
+{
+    background: #2CCAB6;
+    border: solid 2px #172640;
+    color: #172640;
+    text-align: center; 
+}
+
+.tabla__entrenamientoscuarentena 
+{
+    background: gray;
+    border: solid 2px #172640;
+    color: #172640;
+    font-family: complementaria2;
+    font-size: 12px;
+    text-align: center;
+}
+
+@each $recuadros in estadisticas, enlosmedios, lityfutbol {
+    .recuadros__#{$recuadros} {
+        color: #ffffff
+          }
+  }
+  
+  $recuadrossecciones: (
+        estadisticas: #172640,
+        enlosmedios:  #aa45f7,
+        lityfutbol: #2CCAB6);
+
+@each $recuadros, $color in $recuadrossecciones {
+    .recuadros__#{$recuadros} {
+        background-color:$color;
+    }
+    }
+
+  
+    @for $columna from 1 through 6 {
+        .columna-#{$columna} {
+          width: 100% / $columna;
+        }
+      }
+
+      $seccion: entrenamientos; /* Mi constante. Si cambio el valor cambia el color de p. */
+      p {
+            @if $seccion == entrenamientos {
+                   color: #172640;
+                   background-color: #2CCAB6;
+                   padding: 20px;
+            } @else if $seccion == torneos {
+                       color: #aa45f7;
+                       background-color:#172640;
+                       padding: 20px;
+           } @else if $seccion == cursodedt {
+                      color: #ffffff;
+                      background-color: #aa45f7;
+                      padding: 20px;
+           } @else {
+                      color: #2CCAB6;
+                      background-color: #172640;
+                      padding: 20px;
+
+            }
+      }
+.contenedor--seccion__contacto 
+{
+display: inline-block;
+position: relative;
+background-color: #172640;
+width: 100%;
+height: 180px;
+text-align: center;
+}
+.titulo--seccion__contacto
+{
+    position: absolute;
+    font-family: principal;
+    font-size: 70px;
+      z-index: 3;
+    color: #ffffff;
+    top: 50%;
+    right: 30%;
+}
+
